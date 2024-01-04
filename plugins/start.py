@@ -16,7 +16,7 @@ async def start(client, message):
         await db.add_user(user.id)             
     txt=f"👋 {user.mention} 💝 \nI Am Simply File Rename+File To Video Converter Bot With Permanent Thumbnail & Custom Caption Support!"
 
-Tʜɪs Bᴏᴛ Wᴀs Cʀᴇᴀᴛᴇᴅ Bʏ : @cinemaa_boxoffice"
+        Tʜɪs Bᴏᴛ Wᴀs Cʀᴇᴀᴛᴇᴅ Bʏ : @cinemaa_boxoffice"
     button=InlineKeyboardMarkup([[
         InlineKeyboardButton('Updates', url='https://t.me/cinemaa_boxoffice'),
         InlineKeyboardButton('Support', url='https://t.me/moviesworld738')
@@ -65,7 +65,7 @@ async def cb_handler(client, query: CallbackQuery):
         await query.message.edit_text(
             text=f"""👋 {query.from_user.mention} 💝 \nI Am Simply File Rename+File To Video Converter Bot With Permanent Thumbnail & Custom Caption Support!"
 
-Tʜɪs Bᴏᴛ Wᴀs Cʀᴇᴀᴛᴇᴅ Bʏ : @cinemaa_boxoffice""",
+                Tʜɪs Bᴏᴛ Wᴀs Cʀᴇᴀᴛᴇᴅ Bʏ : @cinemaa_boxoffice""",
             reply_markup=InlineKeyboardMarkup( [[
                 InlineKeyboardButton('Updates', url='https://t.me/cinemaa_boxoffice'),
                 InlineKeyboardButton('Support', url='https://t.me/moviesworld738')
