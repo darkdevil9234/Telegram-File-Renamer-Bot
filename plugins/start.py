@@ -14,9 +14,9 @@ async def start(client, message):
     user = message.from_user
     if not await db.is_user_exist(user.id):
         await db.add_user(user.id)             
-    txt=f"👋 {user.mention} 💝 \nI Am Simply File Rename+File To Video Converter Bot With Permanent Thumbnail & Custom Caption Support!"
-
-        Tʜɪs Bᴏᴛ Wᴀs Cʀᴇᴀᴛᴇᴅ Bʏ : @cinemaa_boxoffice"
+    txt=f"👋 {user.mention} 💝 \nTʜɪs Is Aɴ Aᴅᴠᴀɴᴄᴇᴅ Aɴᴅ Yᴇᴛ Pᴏᴡᴇʀꜰᴜʟ Rᴇɴᴀᴍᴇ Bᴏᴛ
+Usɪɴɢ Tʜɪs Bᴏᴛ Yᴏᴜ Cᴀɴ Rᴇɴᴀᴍᴇ & Cᴜsᴛᴏᴍ Tʜᴜᴍʙɴᴀɪʟ Aɴᴅ Cᴜsᴛᴏᴍ Cᴀᴘᴛɪᴏɴ
+🇲‌🇦‌🇮‌🇳‌🇹‌🇦‌🇮‌🇳‌🇪‌🇩‌ 🇧‌🇾‌ @cinemaa_boxoffice"
     button=InlineKeyboardMarkup([[
         InlineKeyboardButton('Updates', url='https://t.me/cinemaa_boxoffice'),
         InlineKeyboardButton('Support', url='https://t.me/moviesworld738')
@@ -63,9 +63,9 @@ async def cb_handler(client, query: CallbackQuery):
     data = query.data 
     if data == "start":
         await query.message.edit_text(
-            text=f"""👋 {query.from_user.mention} 💝 \nI Am Simply File Rename+File To Video Converter Bot With Permanent Thumbnail & Custom Caption Support!"
-
-                Tʜɪs Bᴏᴛ Wᴀs Cʀᴇᴀᴛᴇᴅ Bʏ : @cinemaa_boxoffice""",
+            text=f"""👋 {query.from_user.mention} 💝 \nTʜɪs Is Aɴ Aᴅᴠᴀɴᴄᴇᴅ Aɴᴅ Yᴇᴛ Pᴏᴡᴇʀꜰᴜʟ Rᴇɴᴀᴍᴇ Bᴏᴛ
+Usɪɴɢ Tʜɪs Bᴏᴛ Yᴏᴜ Cᴀɴ Rᴇɴᴀᴍᴇ & Cᴜsᴛᴏᴍ Tʜᴜᴍʙɴᴀɪʟ Aɴᴅ Cᴜsᴛᴏᴍ Cᴀᴘᴛɪᴏɴ
+🇲‌🇦‌🇮‌🇳‌🇹‌🇦‌🇮‌🇳‌🇪‌🇩‌ 🇧‌🇾‌ @cinemaa_boxoffice""",
             reply_markup=InlineKeyboardMarkup( [[
                 InlineKeyboardButton('Updates', url='https://t.me/cinemaa_boxoffice'),
                 InlineKeyboardButton('Support', url='https://t.me/moviesworld738')
