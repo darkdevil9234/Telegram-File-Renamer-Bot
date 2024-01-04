@@ -11,12 +11,12 @@ class mr(object):
     ABOUT_TXT = """
 ╭───────────⍟
 ├🤖 My Name : {}
-├👑 Developer : <a href=https://t.me/crezyBotz>Click Here</a> 
-├👨‍💻 Programer : <a href=https://github.com/CrezyDeveloper/Telegram-File-Renamer-Bot>Click Here</a>
+├👑 Developer : <a href=https://t.me/DwayneJohnsonl>Click Here</a> 
+├👨‍💻 Programer : <a href=https://t.me/cinemaa_boxoffice>Click Here</a>
 ├📕 Library : <a href=https://github.com/pyrogram>Pyrogram</a>
 ├✏️ Language : <a href=https://www.python.org>Python 3</a>
 ├💾 Database : <a href=https://cloud.mongodb.com>MongoDB</a>
-├🌀 My Server : <a href=https://dashboard.render.com>Render</a>
+├🌀 My Server : <a href=https://dashboard.Heroku.com>Heroku</a>
 ├📊 Build Status : v3.6.8             
 ╰───────────────⍟
                                 """
@@ -38,15 +38,6 @@ Example:- /set_caption 📕 File Name: {filename}
 
 ✏️ <b><u>How To Rename A Files</u></b>
 •> send any file and click rename option and type new file name and \n send select [ document, video, audio ]👈 choice this.
- 𝗔𝗻𝘆 𝗢𝘁𝗵𝗲𝗿 𝗛𝗲𝗹𝗽 𝗖𝗼𝗻𝘁𝗮𝗰𝘁 :- <a href=https://t.me/CrezyBotz>support Group</a>
+ 𝗔𝗻𝘆 𝗢𝘁𝗵𝗲𝗿 𝗛𝗲𝗹𝗽 𝗖𝗼𝗻𝘁𝗮𝗰𝘁 :- <a href=https://t.me/Cinemaa_boxoffice_support>support Group</a>
 """
 
-#⚠️ don't remove our credits 🙏😢😢
-    DEV_TXT = """
-<b><u>Special Thanks & Developers</b></u> 
-
-» Source Code: <a href=https://github.com/CrezyDeveloper/Telegram-File-Renamer-Bot>Rename Bot</a>
-
-• ❣️ <a href=https://t.me/only_botz>OnlyBotz</a>
-• ❣️ <a href=https://t.me/crezybotz>CrezyBotz</a>
-"""
