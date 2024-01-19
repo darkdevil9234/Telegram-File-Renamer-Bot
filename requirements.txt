@@ -3,7 +3,7 @@ Pillow
 humanize
 hachoir
 motor
-pyrogram
+git+https://github.com/MKN-BOTZ/pyrogram
 TgCrypto
 dnspython
 
